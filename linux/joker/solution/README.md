@@ -1,4 +1,4 @@
-# RTFP
+# RTFM
 ###  dst_fd = open(dst_filename, O_WRONLY | O_CREAT | O_TRUNC, 0666);
 
 #### solve
