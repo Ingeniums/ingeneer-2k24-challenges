@@ -1,0 +1,17 @@
+author: godsword
+category: security
+connection_info: nc ingeneer-2k24.ingeniums.club 13001
+description: |
+  > a buffer overflow for everyone
+
+  [files](https://drive.google.com/drive/folders/1ScvC1jcxTwZkS0S7i8dDX1s_-7PnoLzd?usp=sharing)
+
+  author: @godsword
+difficulty: medium
+flags:
+  - ingeneer{b0f_r3T_2_WIIi1iN}
+name: bof
+state: hidden
+type: standard
+value: 100
+version: "0.1"

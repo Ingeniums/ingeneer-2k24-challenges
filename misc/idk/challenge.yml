@@ -1,0 +1,18 @@
+author: enoni
+category: misc
+description: |
+  > what is that under the tree, is that blood?
+  > why is this message so hard to be understood!!!!!
+  > damn it, why don't we go up in the mountains and live like MONKs!!!!
+  [files](https://drive.google.com/file/d/1-G-TikP7dG00B2YrWm6qt7kpGo9FjNsV/view)
+  
+  author: @enoni
+difficulty: easy
+flags:
+  - ingeneer{W3_4r3_1n_Al3X4NDr14_pL4c3}
+name: idk
+state: hidden
+type: standard
+value: 500
+version: "0.1"
+

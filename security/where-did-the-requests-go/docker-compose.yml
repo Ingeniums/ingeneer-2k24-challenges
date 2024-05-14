@@ -1,0 +1,31 @@
+version: '2'
+services:
+  where_did_the_requests_go_web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 13009:1330
+    depends_on:
+      - where_did_the_requests_go_database
+    environment:
+      - DB_URI=mongodb://where_did_the_requests_go_database:27017/NO_SQLI
+    mem_limit: 256M
+    mem_reservation: 128M
+
+  where_did_the_requests_go_database:
+    image: mongo:latest
+    volumes:
+      - mongodata:/data/db
+    ports:
+      - 27017:27017
+    mem_limit: 512M
+    mem_reservation: 128M
+  where_did_the_requests_go_server:
+    build: 
+      context: ./challenge/server
+      dockerfile: Dockerfile
+    ports:
+      - '13011:22'
+volumes:
+  mongodata: {}

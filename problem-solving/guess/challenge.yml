@@ -1,0 +1,17 @@
+author: poysa
+category: problem-solving
+connection_info: nc ingeneer-2k24.ingeniums.club 14006
+description: |
+  > let's play
+
+  author: @poysa
+difficulty: easy
+flags:
+  - ingeneer{worst-case_CoMp13Xi7Y_iS_O(l0G_N)}
+name: guess
+state: hidden
+tags:
+  - algorithms
+type: standard
+value: 500
+version: "0.1"

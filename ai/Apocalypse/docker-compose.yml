@@ -1,0 +1,8 @@
+version: '3'
+services:
+  apocalypse:
+    build: .
+    ports:
+      - "15001:1025"
+    volumes:
+      - /home/ingeneer/data/Apocalypse:/data

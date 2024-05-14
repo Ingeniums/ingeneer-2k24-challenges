@@ -1,0 +1,15 @@
+author: enoni
+category: misc
+description: |
+  > We found this book buried under a tree. It talks about this group called: INGE-FAM but the weird thing is its cover. Is this some kind of message?
+  > don't forget the flag format ingeneer{something_here}
+  author: @enoni
+difficulty: easy
+flags:
+  - ingeneer{the_members_make_ingeniums_club_as_family}
+name: inge-fam
+state: hidden
+type: standard
+value: 500
+version: "0.1"
+

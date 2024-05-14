@@ -1,0 +1,6 @@
+version: '3'
+services:
+  wordle2:
+    build: .
+    ports:
+      - "11006:1224"

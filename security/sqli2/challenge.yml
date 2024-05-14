@@ -1,0 +1,20 @@
+author: poysa
+category: security
+connection_info: nc ingeneer-2k24.ingeniums.club 13007
+description: |
+  > aww, what's that brother, I bet the OWNER of this body had a long day
+  
+  author: @poysa
+difficulty: easy
+flags:
+  - ingeneer{YOU_5hOUld_pATCh_youR_@pp_A$@P}
+name: sqli2
+state: hidden
+tags:
+  - web
+  - sql
+type: standard
+value: 500
+version: "0.1"
+
+

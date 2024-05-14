@@ -1,0 +1,11 @@
+FROM python:3.11
+
+RUN  apt-get update && apt-get install -y socat
+
+RUN pip install numpy
+
+COPY challenge /app
+
+RUN chmod 700 /app/entrypoint.sh 
+
+CMD ["/app/entrypoint.sh"]

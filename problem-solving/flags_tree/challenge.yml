@@ -1,0 +1,15 @@
+author: younes
+category: problem-solving
+connection_info: nc ingeneer-2k24.ingeniums.club 14010
+description: |
+  [files](https://drive.google.com/drive/folders/1kIfm6Agu0uXcGFbitqr2NNZPBYnl5igB?usp=sharing)
+  
+  @author younes
+difficulty: medium
+flags:
+  - ingeneer{C4n_Zom8Iez_clImB_TR33s}
+name: flags tree
+state: hidden
+type: standard
+value: 500
+version: '0.1'

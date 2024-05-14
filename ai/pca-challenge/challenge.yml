@@ -1,0 +1,14 @@
+author: phues
+category: ai
+connection_info: https://drive.google.com/file/d/1LutuyqnkWykcQpJPEO5qjLzjgnFnG5Ua/view?usp=sharing
+description: Can you recover flag which was embedded in a very high dimensional space?
+difficulty: medium
+flags:
+  - ingeneer{PCA_15_3a5y}
+name: tokens embedding
+state: hidden
+tags:
+  - misc
+type: standard
+value: 100
+version: "0.1"

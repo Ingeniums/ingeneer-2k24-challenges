@@ -1,0 +1,19 @@
+author: poysa
+category: linux
+connection_info: nc ingeneer-2k24.ingeniums.club 10002
+description: |
+  > the zomBIes are Not cats
+  
+  author: @poysa
+difficulty: easy
+flags:
+  - ingeneer{F0Rk3D_c4t_1N_Bell@_W17h_sU!d}
+name: cat
+state: hidden
+tags:
+  - linux
+type: standard
+value: 500
+version: "0.1"
+
+

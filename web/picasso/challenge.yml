@@ -1,0 +1,15 @@
+author: poysa
+category: web
+connection_info: https://ingeneer-2k24.ingeniums.club:12004
+description: |
+  > Rick, come and check what carl DRAW. It's so cute.
+
+  author: @poysa
+difficulty: easy
+flags:
+  - ingeneer{P4bLo_PiCAS5O_23186}
+name: picasso
+state: hidden
+type: standard
+value: 100
+version: "0.1"

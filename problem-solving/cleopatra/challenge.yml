@@ -1,0 +1,17 @@
+author: poysa
+category: problem-solving
+connection_info: nc ingeneer-2k24.ingeniums.club 14005
+description: |
+  > cleaopatra
+
+  [description](https://docs.google.com/document/d/1C6mGesQCzzhAN32yxoINWYvvgHFauZfbaG10KUPpIhY/edit?usp=sharing)
+  
+  @author poysa
+difficulty: medium
+flags:
+  - ingeneer{clEAOPatRa_@TheR_1oV!nG_90ddE5$}
+name: cleaopatra
+state: hidden
+type: standard
+value: 500
+version: '0.1'

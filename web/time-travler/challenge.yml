@@ -1,0 +1,17 @@
+author: poysa
+category: web
+connection_info: https://2274510560.ingeniums.club/
+description: |
+  > i wish we had a TIME MACHINE because then we would have a way back to the time where zombies didn't exists
+
+  author: @poysa
+difficulty: easy
+flags:
+  - ingeneer{ThE_wAyB@cK_MaCh!NE_I$_@n_!n171ative_0F_thE_InTErNet_arcHIv3} 
+name: time traveler
+state: hidden
+tags:
+  - web
+type: standard
+value: 500
+version: "0.1"

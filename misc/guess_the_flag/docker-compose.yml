@@ -1,0 +1,7 @@
+version: '3.2'
+
+services:
+  guess_the_flag:
+    build: .
+    ports:
+      - "11007:1337"

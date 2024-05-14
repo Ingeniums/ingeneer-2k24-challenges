@@ -1,0 +1,17 @@
+author: FendiMohamed
+category: web
+connection_info: https://ingeneer-2k24.ingeniums.club:12006
+description: |
+  > Make sure to get it as soon as possible
+
+  author: @FendiMohamed
+difficulty: medium
+flags:
+  - ingeneer{KhOy4_ST1k4}
+name: Get it
+state: hidden
+tags:
+  - web
+type: standard
+value: 100
+version: "0.1"

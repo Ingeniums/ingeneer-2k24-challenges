@@ -1,0 +1,14 @@
+author: phues
+category: ai
+connection_info: https://drive.google.com/file/d/1WMmsughVSdRdJIgYbMg0wvxixut3miv6/view?usp=sharing
+description: Can you find the imposters? Explore the data with a method that doesn't rely on predetermined shapes. The default parameters might reveal more than you think. Submit the flag in the format ingeneer{imposter1_imposter2....}.
+difficulty: easy
+flags:
+  - ingeneer{p44_p120_p128_p161_p169}
+name: Sussy Baka
+state: hidden
+tags:
+  - misc
+type: standard
+value: 100
+version: "0.1"

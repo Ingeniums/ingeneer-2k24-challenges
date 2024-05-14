@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Users Information</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .user-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .user-card p {
+      margin: 5px 0;
+      color: #555;
+    }
+
+    .user-card p strong {
+      color: #333;
+    }
+
+    .back-link {
+      display: block;
+      margin-top: 20px;
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Result for {{ name }}:</h2>
+
+{% for user in users %}
+<div class="user-card">
+  <p><strong>Id:</strong> {{ user[0] }}</p>
+  <p><strong>Username:</strong> {{ user[1] }}</p>
+  <p><strong>Email:</strong> {{ user[3] }}</p>
+</div>
+{% endfor %}
+
+<a href="/" class="back-link">Back</a>
+
+</body>
+</html>

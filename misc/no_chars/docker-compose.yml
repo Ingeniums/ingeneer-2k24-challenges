@@ -1,0 +1,6 @@
+version: '3'
+services:
+  pyjail:
+    build: .
+    ports:
+      - "11003:1337"

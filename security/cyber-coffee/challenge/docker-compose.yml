@@ -1,0 +1,39 @@
+version: '3'
+    
+services:
+  lab_listener:
+    build:
+      context: .
+      dockerfile: Dockerfile_listener
+    mac_address: "02:42:ac:11:00:0f"
+    networks:
+      ingeneer_lab:
+        ipv4_address: 10.69.0.17
+
+  lab_sender:
+    build:
+      context: .
+      dockerfile: Dockerfile_sender
+    mac_address: "02:42:ac:11:00:1f"
+    networks:
+      ingeneer_lab:
+        ipv4_address: 10.69.0.23
+
+  lab_attacker:
+    build:
+      context: .
+      dockerfile: Dockerfile_attacker
+    ports:
+      - "9999:12345"  
+    mac_address: "02:42:ac:11:00:04"
+    networks:
+      ingeneer_lab:
+        ipv4_address: 10.69.0.4
+    privileged: true  # required for raw socket access
+
+networks:
+  ingeneer_lab: 
+    ipam:
+      config:
+        - subnet: 10.69.0.0/24
+        

@@ -1,0 +1,20 @@
+author: scalio
+category: misc
+connection_info: nc ingeneer-2k24.ingeniums.club 11005
+description: |
+  > After All of this tiring events, let's have some fun ! How about playing wordle ???!
+  
+  ps : We used this wordle list to play : [gist](https://gist.githubusercontent.com/dracos/dd0668f281e685bad51479e5acaadb93/raw/6bfa15d263d6d5b63840a8e5b64e04b382fdb079/valid-wordle-words.txt)
+
+  author: @scalio
+difficulty: easy
+flags:
+  - ingeneer{6g_GU35S1N6_tHe_WORD_WOrd13_mAST3R}
+image: .
+name:  Wordle
+state: hidden
+tags:
+  - misc
+type: standard
+value: 500
+version: "0.1"

@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  sqli1:
+    build:
+      context: .
+      dockerfile: Dockerfile 
+    ports:
+      - "13006:3000"
+    environment:
+      - FLAG=ingeneer{bU7_tH@ts_4N_easY_Sqli}
+ 

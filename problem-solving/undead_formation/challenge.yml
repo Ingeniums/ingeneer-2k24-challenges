@@ -1,0 +1,15 @@
+author: poysa
+category: problem-solving
+connection_info: nc ingeneer-2k24.ingeniums.club 14003
+description: |
+  > [description](https://docs.google.com/document/d/1IZZdcy8b1hdjkLxjXRsY2G_Go_NZ8BX_hADuPuGVeok/edit?usp=sharing)
+
+  author: @poysa
+difficulty: medium
+flags:
+  - ingeneer{9Ood_J08_$URvIVin6_THe_W@LKeRs}
+name: undead formation
+state: hidden
+type: standard
+value: 500
+version: '0.1'

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compile LaTeX</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid pink;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>LaTeX to pdf</h1>
+        <p>I built you this amazing laTex compiler,</p>
+        <p>it's secure btw 👾</p>
+        <form method="post">
+            <textarea name="latex_code" id="latex_code_input" rows="10" cols="50">
+            </textarea><br>
+            <button type="submit">Compile</button>
+        </form>
+    </div>
+</body>
+<script>
+    var textarea = document.getElementById("latex_code_input");
+
+    textarea.placeholder = "\\documentclass{article}\n\\begin{document}\nHello, Amira!\n\\end{document}";
+    textarea.value = "\\documentclass{article}\n\\begin{document}\nHello, Amira!\nthe flag is at /flag.txt!\n\\end{document}";
+</script>
+
+</html>

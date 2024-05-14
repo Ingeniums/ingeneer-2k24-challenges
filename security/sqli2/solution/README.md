@@ -1,0 +1,1 @@
+SELECT grantee FROM information_schema.user_privileges

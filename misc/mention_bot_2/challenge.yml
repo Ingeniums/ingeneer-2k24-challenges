@@ -1,0 +1,18 @@
+author: godsword
+category: misc
+description: |
+  > checkout the enhanced version of the bot
+
+  (TODO) teleram bot link
+
+  author: @godsword
+difficulty: medium
+flags:
+  - ingeneer{s3cur3_p45s}
+name: mention_bot_2
+state: hidden
+tags:
+  - misc
+type: standard
+value: 500
+version: "0.1"

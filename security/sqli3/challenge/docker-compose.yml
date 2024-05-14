@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  sqli3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "13008:5000"

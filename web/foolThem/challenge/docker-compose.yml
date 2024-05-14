@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  fool_them:
+    build: .
+    ports:
+      - "12005:3000"
+    environment:
+      - FLAG=ingeneer{91b_Chibs1}
+      - URL=http://ingeneer-2k24.ingeniums.club:12005

@@ -1,0 +1,18 @@
+author: NiL0V3R
+category: misc
+description: |
+  > someone sent me this word doc by email, and ig it's malicious? Discover the CVE and submit it as a flag
+  
+  **PS**: flag format is ingeneer{CVE-year-number}
+
+  [files](https://drive.google.com/drive/folders/1Ozf8Wr2G8xAHF1tviBjxeEy4vfyCakj5?usp=sharing)
+
+  author: @NiL0V3R
+difficulty: medium
+flags:
+  - ingeneer{CVE-2017-0144}
+name: out of the blue
+state: hidden
+type: standard
+value: 500
+version: "0.1"

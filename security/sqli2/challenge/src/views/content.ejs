@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        li {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            text-align: center;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <h1><%= table.charAt(0).toUpperCase() + table.slice(1) %></h1>
+    <% if (content && content.length > 0) { %>
+        <ul>
+            <% content.forEach(item => { %>
+                <li><%= item %></li>
+            <% }); %>
+        </ul>
+    <% } else { %>
+        <p>No content available.</p>
+    <% } %>
+</body>
+</html>

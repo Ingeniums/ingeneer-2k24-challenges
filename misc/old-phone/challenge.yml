@@ -1,0 +1,14 @@
+author: enoni
+category: misc
+description: |
+  > Rick received a weird message from his team but he thinks that the team does not want the saviors to understand it! Don't they have that old phone??
+  author: @enoni
+difficulty: easy
+flags:
+  - ingeneer{karl_i5_1n_d4ng3r_negan_is_c0ming_for_h1m_y0u_4r3_7he_only_on3_th47_can_s4v3_h1m}
+name: old-phone
+state: hidden
+type: standard
+value: 500
+version: "0.1"
+

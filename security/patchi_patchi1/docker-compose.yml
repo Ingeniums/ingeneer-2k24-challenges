@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  patchi_patchi:
+    build: .
+    ports:
+      - "13003:1337"

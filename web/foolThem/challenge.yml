@@ -1,0 +1,17 @@
+author: FendiMohamed
+category: web
+connection_info: https://ingeneer-2k24.ingeniums.club:12005
+description: |
+  > Make sure to fool them and get that thing
+
+  author: @FendiMohamed
+difficulty: medium
+flags:
+  - ingeneer{91b_Chibs1}
+name: Fool them
+state: hidden
+tags:
+  - web
+type: standard
+value: 100
+version: "0.1"

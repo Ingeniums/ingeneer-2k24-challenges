@@ -1,0 +1,21 @@
+FROM ubuntu:latest
+
+RUN apt-get update && \
+    apt-get install -y socat 
+
+RUN useradd -m -s /bin/bash h4cker
+
+RUN useradd -m -s /bin/bash ctf
+
+COPY flag.txt /home/h4cker
+
+COPY ./entrypoint.sh /bin/entrypoint.sh
+
+RUN echo 'h4cker:nothingagain' | chpasswd 
+
+RUN chmod 700 /bin/entrypoint.sh 
+
+RUN chmod 550 /home/ctf && \
+        chmod 550 /home/h4cker
+
+CMD [ "/bin/entrypoint.sh" ]    

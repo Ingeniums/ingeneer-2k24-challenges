@@ -1,0 +1,4 @@
+version: '3'
+services:
+  mention_bot_2:
+    build: .

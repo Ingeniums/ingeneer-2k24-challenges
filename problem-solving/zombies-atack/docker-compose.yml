@@ -1,0 +1,8 @@
+version: '3.2'
+
+services:
+  zombies_atack: 
+    build:
+        .
+    ports:
+      - "14001:12345"

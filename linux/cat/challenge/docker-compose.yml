@@ -1,0 +1,8 @@
+version: '3.2'
+
+services:
+  cat: 
+    build:
+        .
+    ports:
+      - "10002:12345"

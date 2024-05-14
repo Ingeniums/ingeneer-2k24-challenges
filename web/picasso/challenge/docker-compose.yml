@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  picasso:
+    build:
+      context: .
+      dockerfile: dockerfile 
+    ports:
+      - "12004:3000"

@@ -1,0 +1,20 @@
+author: poysa
+category: security
+connection_info: nc ingeneer-2k24.ingeniums.club 13006
+description: |
+  > take this body to the scientist, I think he would love to INJECT some of his medicins in it
+  
+  author: @poysa
+difficulty: easy
+flags:
+  - ingeneer{bU7_tH@ts_4N_easY_Sqli}
+name: sqli1
+state: hidden
+tags:
+  - web
+  - sql
+type: standard
+value: 500
+version: "0.1"
+
+

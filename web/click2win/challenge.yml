@@ -1,0 +1,17 @@
+author: poysa
+category: web
+connection_info: https://ingeneer-2k24.ingeniums.club:12001
+description: |
+  > why is this button not clicking, is there any OTHER WAY to make it click ?
+
+  author: @poysa
+difficulty: easy
+flags:
+  - ingeneer{dEVToO15_aRE_PworFULl}
+name: click2win
+state: hidden
+tags:
+  - web
+type: standard
+value: 100
+version: "0.1"

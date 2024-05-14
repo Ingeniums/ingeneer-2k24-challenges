@@ -1,0 +1,15 @@
+author: poysa
+category: web
+connection_info: https://ingeneer-2k24.ingeniums.club:12003
+description: |
+  > oh look it's a camera, can we take some PICTURES in case the zombies ate one of us someday
+
+  author: @poysa
+difficulty: easy
+flags:
+  - ingeneer{wCH_MN_M3N@_m4_EnDH4_HTa_M@3Na}
+name: noway
+state: hidden
+type: standard
+value: 100
+version: "0.1"

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get it</title>
+  </head>
+
+  <body>
+    <div>
+      <button id="server1Button">Request Server 1</button>
+      <button id="server2Button">Request Server 2</button>
+    </div>
+
+    <div id="Response"></div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const server1Button = document.getElementById('server1Button')
+        const server2Button = document.getElementById('server2Button')
+
+        server1Button.addEventListener('click', () => {
+          const controller1 = new AbortController()
+          const signal1 = controller1.signal
+
+          fetch('https://ingeneer-2k24.ingeniums.club:12006/flag', {
+            signal: signal1,
+            credentials: 'include',
+          })
+            .then((response) => {
+              if (!response.ok) {
+                throw new Error('Network response was not ok')
+              }
+              controller1.abort()
+              return response.text()
+            })
+            .then((data) => {
+              const responseDiv = document.getElementById('Response')
+              responseDiv.innerHTML = data
+            })
+            .catch((error) => {
+              console.error('Error:', error)
+            })
+        })
+
+        server2Button.addEventListener('click', () => {
+          const controller2 = new AbortController()
+          const signal2 = controller2.signal
+
+          fetch('https://ingeneer-2k24.ingeniums.club:12007/flag', {
+            signal: signal2,
+          })
+            .then((response) => {
+              if (!response.ok) {
+                throw new Error('Network response was not ok')
+              }
+              controller2.abort()
+              return response.text()
+            })
+            .then((data) => {
+              const responseDiv = document.getElementById('Response')
+              responseDiv.innerHTML = data
+            })
+            .catch((error) => {
+              console.error('Error:', error)
+            })
+        })
+      })
+    </script>
+  </body>
+</html>

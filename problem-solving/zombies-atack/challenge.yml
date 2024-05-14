@@ -1,0 +1,13 @@
+author: poysa
+category: problem-solving
+connection_info: nc ingeneer-2k24.ingeniums.club 14001
+description: |
+  > [description](https://docs.google.com/document/d/1Jd36SEvy3VIPzL87oNqw1gFZ7xmuujiA_ZpZDo6E1gc/edit#heading=h.vb8p0lepu9vn)
+difficulty: easy
+flags:
+  - ingeneer{fIr$t_iN_fiR$t_OUT}
+name: zombies atack
+state: hidden
+type: standard
+value: 500
+version: '0.1'

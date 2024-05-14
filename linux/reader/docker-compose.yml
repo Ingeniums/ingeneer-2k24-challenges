@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  reader:
+    build: .
+    ports:
+      - "10005:1337"

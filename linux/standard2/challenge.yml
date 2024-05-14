@@ -1,0 +1,19 @@
+author: poysa
+category: linux
+connection_info: nc ingeneer-2k24.ingeniums.club 10006
+description: |
+  >  what's happening here, am i being REDIRECTED ?
+  
+  author: @poysa
+difficulty: easy
+flags:
+  - ingeneer{$7anD@RD_f1le_DESCR!pTors}
+name: standard2
+state: hidden
+tags:
+  - linux
+type: standard
+value: 500
+version: "0.1"
+
+

@@ -1,0 +1,14 @@
+author: phues
+category: ai
+connection_info: https://drive.google.com/file/d/1to-78tKoifwaVykCkuORcgD7zNNWJbSY/view?usp=sharing
+description: Submit the flag in the format ingeneer{x_y} where x is the number of images of '3' and y is the number of images of '6' (WARNING THERE COULD BE AN ERROR RATE OF 1 IMAGE) .
+difficulty: easy
+flags:
+  - ingeneer{16818_17204}
+name: digits recognition
+state: hidden
+tags:
+  - misc
+type: standard
+value: 100
+version: "0.1"

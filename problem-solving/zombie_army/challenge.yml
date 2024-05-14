@@ -1,0 +1,17 @@
+author: godsword
+category: problem-solving
+connection_info: nc ingeneer-2k24.ingeniums.club 14007
+description: |
+  > i always thought Michonne was able to take entire zombie armies with the sword she carries, can you do the same?
+
+  [files](https://drive.google.com/drive/folders/1L_g25aAa1fhAMwMoteWjIB0yR6rvUZW_?usp=sharing)
+  
+  author: @godsword
+difficulty: medium
+flags:
+  - ingeneer{niCe_JOB_$uRV1VIn9_tHAT}
+name: zombie_army
+state: hidden
+type: standard
+value: 500
+version: "0.1"

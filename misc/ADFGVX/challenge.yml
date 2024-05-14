@@ -1,0 +1,14 @@
+author: enuoni
+category: warmup
+description: |
+  > [description](https://docs.google.com/document/d/16tqM4PKXgN18lEQ8bJv0xdnVqQUsT__iw7fRAWZDz3o)
+  
+  author: @enouni
+difficulty: easy
+flags:
+  - igeneer{IL1K3I7TH350UNDOFTH3DE4DS}
+name: MIXED
+state: hidden
+type: standard
+value: 100
+version: '0.1'

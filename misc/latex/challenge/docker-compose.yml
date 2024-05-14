@@ -1,0 +1,7 @@
+version: '3.2'
+
+services:
+  latex:
+    build: .
+    ports:
+      - "11002:80"

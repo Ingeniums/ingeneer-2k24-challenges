@@ -1,0 +1,20 @@
+author: poysa
+category: misc
+connection_info: nc ingeneer-2k24.ingeniums.club 11002
+description: |
+  > we are killing all the whisperers, INCLUDing negan
+  
+  author: @poysa
+difficulty: easy
+flags:
+  - ingeneer{I_SwAEr_y0U_M@y_f1Nd_THIS_BU6_!N_any_0nL!n3_edItOr_!f_y0U_f1nD_One_HH}
+name: latex
+state: hidden
+tags:
+  - exploitation
+  - web
+type: standard
+value: 500
+version: "0.1"
+
+

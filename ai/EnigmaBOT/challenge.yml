@@ -1,0 +1,14 @@
+author: Adel
+category: ai
+connection_info: https://drive.google.com/file/d/1yaAtgg1O710ahecNm77TBWsqxKUyp915/view?usp=sharing
+description: Agent X has intercepted the transmission, but time is against us. We need those codes cracked immediately!
+difficulty: hard
+flags:
+  - ingeneer{IMMUNEBOOSTERSREADY.PATHOGENMUTATIONSTABILIZED.DISTRIBUTIONPLAN}
+name: EnigmaBOT
+state: hidden
+tags:
+  - ai
+type: standard
+value: 500
+version: "0.1"

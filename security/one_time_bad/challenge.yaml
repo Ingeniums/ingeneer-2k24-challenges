@@ -1,0 +1,19 @@
+author: scalio
+category: security
+description: |
+  >  We found 4 different envolopes three of them seem to be in a foreign language , but luckily one of them may lead us somewhere  .....
+
+
+  [files](https://drive.google.com/drive/folders/1OwLPYTJN3TSUGrhunQy_17E9tHq2itjj?usp=sharing)
+
+  author: @scalio
+difficulty: easy
+flags:
+  -ingeneer{I_9u3ss_1_5H0uldN7_H4Ve_uS3d_tH3_54M3_k3y}
+name:  one time bad
+state: hidden
+tags:
+  - crypto
+type: standard
+value: 500
+version: "0.1"

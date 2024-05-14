@@ -1,0 +1,1 @@
+Submit a flag of this format: ingeneer{Xc1_Yc2_Zc3_Wc4}, Where X, Y, Z and W are the number of clusters of each npy file respectively!

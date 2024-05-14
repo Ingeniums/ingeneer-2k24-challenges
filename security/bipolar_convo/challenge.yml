@@ -1,0 +1,18 @@
+author: NiL0V3R
+category: security
+description: |
+  > Sometimes, it's not just about what you're saying, but how you say it. You might need to elaborate for some people, and keep it concise for others!
+
+  [files](https://drive.google.com/drive/folders/1oHx-pIteNzfp1XgMpqmC8lx2oONvyWsp?usp=sharing)
+
+  author: @NiL0V3R
+difficulty: easy
+flags:
+  - ingeneer{B1n4Ry_C0nV05}
+name: Bipolar Convo
+state: hidden
+tags:
+  - forensics
+type: standard
+value: 500
+version: "0.1"

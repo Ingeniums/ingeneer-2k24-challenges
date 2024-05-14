@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  sqli2:
+    build:
+      context: .
+      dockerfile: Dockerfile 
+    ports:
+      - "13007:3000"
+    environment:
+      - DB_HOST=mysql2
+      - DB_USER=YOU5hOUldpATChyouRAppASaP
+      - MYSQL_DATABASE=2fdsfe14542r1edf
+      - DB_PASSWORD=fsdfjkfew324234rjwlkrj2l
+      - DB_PORT=3306
+      - DB_NAME=dbsdfsverfmlwkef
+    depends_on:
+      - mysql2
+    restart: unless-stopped
+
+  mysql2:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: fsdfjkfew324234rjwlkrj2l
+      MYSQL_DATABASE: dbsdfsverfmlwkef
+      MYSQL_USER: YOU5hOUldpATChyouRAppASaP
+      MYSQL_PASSWORD: fsdfjkfew324234rjwlkrj2l
+      MYSQL_ROOT_HOST: '%'
+      MYSQL_AUTHENTICATION_PLUGIN: mysql_native_password  
+    restart: unless-stopped
+

@@ -1,0 +1,7 @@
+version: '3.2'
+
+services:
+  port:
+    build: .
+    ports:
+      - "11004:8005"

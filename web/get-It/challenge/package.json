@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "scripts": {
+    "server": "node server.js",
+    "server2": "node server2.js",
+    "dev": "concurrently \"npm run server\" \"npm run server2\""
+  }
+}

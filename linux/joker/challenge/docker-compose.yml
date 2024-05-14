@@ -1,0 +1,7 @@
+version: '3.2'
+
+services:
+  joker:
+    build: .
+    ports:
+      - "10003:12345"

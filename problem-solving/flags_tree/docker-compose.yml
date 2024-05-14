@@ -1,0 +1,7 @@
+version: '3.2'
+
+services:
+  flags_tree: 
+    build: .
+    ports:
+      - "14010:12345"

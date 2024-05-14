@@ -1,0 +1,17 @@
+author: godsword
+category: linux
+connection_info: nc -v ingeneer.ingeniums.club 10005
+description: |
+  > ...
+
+  [files](https://drive.google.com/drive/folders/1qjQH79zwhaZat14MDdlA_-POIPHPteIM?usp=sharing)
+  
+  author: @godsword
+difficulty: easy
+flags:
+  - ingeneer{A7_LeasT_y0U_lE@rned_$0mEthinG_NEw}
+name: reader
+state: hidden
+type: standard
+value: 500
+version: "0.1"

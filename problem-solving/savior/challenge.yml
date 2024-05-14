@@ -1,0 +1,15 @@
+author: poysa
+category: problem-solving
+connection_info: nc ingeneer-2k24.ingeniums.club 14009
+description: |
+  > [description](https://docs.google.com/document/d/1zQ8extRyRg1ragrMNn6OSOP3-XhQUFQ4EIig_V4y1wk/edit?usp=sharing)
+
+  author: @poysa
+difficulty: hard
+flags:
+  - ingeneer{I_knOW_@_9uy_wHo_kn0w$_@_9UY_WHO_c4N_Do_TH!5}
+name: savior
+state: hidden
+type: standard
+value: 100
+version: '0.1'

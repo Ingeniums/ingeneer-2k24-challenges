@@ -1,0 +1,6 @@
+version: '3'
+services:
+  zombie_army:
+    build: .
+    ports:
+      - "14007:1337"

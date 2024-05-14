@@ -1,0 +1,14 @@
+author: Adel
+category: ai
+connection_info: https://drive.google.com/file/d/161V-F7grLj5X2R9nDjapvXjG7aPLlgNY/view?usp=sharing
+description: Bip bop boop, your precious model has encountered a fatal error... This language model belongs to me now. Bzzzt!
+difficulty: easy
+flags:
+  - ingeneer{16,640}
+name: Parasite
+state: hidden
+tags:
+  - ai
+type: standard
+value: 100
+version: "0.1"

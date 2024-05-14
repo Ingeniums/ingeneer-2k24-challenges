@@ -1,0 +1,7 @@
+version: '3.2'
+
+services:
+  standard2:
+    build: .
+    ports:
+      - "10006:12345"

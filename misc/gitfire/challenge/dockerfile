@@ -1,0 +1,15 @@
+FROM node:20
+
+WORKDIR /usr/src/app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY server.js server.js
+
+COPY public ./public
+
+RUN mv /usr/src/app/public/git /usr/src/app/public/.git
+
+CMD ["node", "server.js"]

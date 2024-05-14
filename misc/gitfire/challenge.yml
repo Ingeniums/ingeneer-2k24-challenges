@@ -1,0 +1,19 @@
+author: poysa
+category: misc
+connection_info: nc ingeneer-2k24.ingeniums.club 11001
+description: |
+  > some people may think zombies are the real danger, but humans are the SOURCE of all evil
+  
+  author: @poysa
+difficulty: easy
+flags:
+  - ingeneer{de1e7E_YOUr_8Ash_H!sT0Ry}
+name: gitfire
+state: hidden
+tags:
+  - linux
+type: standard
+value: 500
+version: "0.1"
+
+

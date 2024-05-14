@@ -1,0 +1,1 @@
+#### dump the git folder with git-dumper tool, then back in commits in order to get the secrets and use them to connect to firebase firestore to get the flag

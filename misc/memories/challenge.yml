@@ -1,0 +1,17 @@
+author: NiL0V3R
+category: misc
+description: |
+  >  I was about to push my pfe code for me to see some repository related to my 1cp.. wow, time flies, i wonder if im still able to read these, can you?
+  
+  author: @NiL0V3R
+difficulty: easy
+flags:
+  - ingeneer{CH15_kB1R_aRCH1}
+name: memories
+state: hidden
+tags:
+  - osint
+type: standard
+value: 500
+version: "0.1"
+

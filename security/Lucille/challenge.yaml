@@ -1,0 +1,20 @@
+author: scalio
+category: security
+description: |
+  > Within the static of the post-apocalyptic airwaves, a cryptic message, whispered in the language of survival, awaits decryption --- Unravel its secrets to wield the power of Lucille, Negan's infamous barbed wire-wrapped bat, or face the relentless onslaught of the undead..
+
+  [files](https://drive.google.com/drive/folders/1_iGpRF7BjA6mBnakPNtmRZERC3WKv4fd?usp=sharing)
+  
+  author: @scalio
+difficulty: medium
+flags:
+  - ingeneer{wel1_d0n3_rever51n6_17_Neg4nn}
+name: Lucille
+state: hidden
+tags:
+  - crypto
+type: standard
+value: 500
+version: "0.1"
+
+

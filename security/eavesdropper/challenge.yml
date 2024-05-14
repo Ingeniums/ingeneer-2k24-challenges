@@ -1,0 +1,17 @@
+author: poysa
+category: security
+description: |
+  > i think this adventure will enter history
+  
+  [files](https://drive.google.com/file/d/1-YRX7RwEDptguSCmbOiGTiJ0PoUXyLdt/view?usp=sharing)
+  author: @poysa
+difficulty: medium
+flags:
+  - ingeneer{7H!s_!5_why_YOu_neEd_7O_3ncRYP7_Y0uR_cHaT_TeXtS}
+name: eavesdropper
+state: hidden
+tags:
+  - NETWORK
+type: standard
+value: 500
+version: "0.1"

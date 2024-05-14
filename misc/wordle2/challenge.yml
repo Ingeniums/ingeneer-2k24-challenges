@@ -1,0 +1,20 @@
+author: scalio
+category: misc
+connection_info: nc ingeneer-2k24.ingeniums.club 11006
+description: |
+  > let's continue having fun !!!
+  
+  ps : my word is one of those : [gist](https://gist.githubusercontent.com/dracos/dd0668f281e685bad51479e5acaadb93/raw/6bfa15d263d6d5b63840a8e5b64e04b382fdb079/valid-wordle-words.txt)
+  
+  author: @scalio
+difficulty: easy
+flags:
+  - ingeneer{U_SO1v3d_it_4641N_u_r3_Rl1y_g00D_47_Th15}
+image: .
+name:  Wordle2
+state: hidden
+tags:
+  - misc
+type: standard
+value: 500
+version: "0.1"

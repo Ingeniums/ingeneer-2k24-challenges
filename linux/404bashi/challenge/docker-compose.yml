@@ -1,0 +1,6 @@
+version: '3'
+services:
+  bashi:
+    build: .
+    ports:
+      - "10001:1025" 

@@ -1,0 +1,20 @@
+author: poysa
+category: security
+connection_info: nc ingeneer-2k24.ingeniums.club 13008
+description: |
+  > in ingeneer we survive as a UNION, not as individuals 
+  
+  author: @poysa
+difficulty: medium
+flags:
+  - ingeneer{PR0FE5S!ONal_BUg_BOuNTy_huNTer}
+name: sqli3
+state: hidden
+tags:
+  - web
+  - sql
+type: standard
+value: 500
+version: "0.1"
+
+

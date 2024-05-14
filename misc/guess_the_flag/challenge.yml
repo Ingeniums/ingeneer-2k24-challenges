@@ -1,0 +1,17 @@
+author: godsword
+category: misc
+connection_info: nc ingeneer2k24.ingeniums.club 11007
+description: |
+  > you literally have to match the flag
+
+  author: @godsword
+difficulty: medium
+flags:
+  - ingeneer{GG_YoU_AR3_@_r3g3x_m45TEr}
+name: guess_the_flag
+state: hidden
+tags:
+  - guessing
+type: standard
+value: 500
+version: "0.1"

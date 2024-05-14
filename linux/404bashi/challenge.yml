@@ -1,0 +1,19 @@
+author: poysa
+category: linux
+connection_info: nc ingeneer-2k24.ingeniums.club 10001
+description: |
+  > i think this adventure will enter history
+  
+  author: @poysa
+difficulty: easy
+flags:
+  - ingeneer{de1e7E_YOUr_8Ash_H!sT0Ry}
+name: 404 bashi
+state: hidden
+tags:
+  - linux
+type: standard
+value: 500
+version: "0.1"
+
+

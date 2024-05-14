@@ -1,0 +1,19 @@
+author: godsword
+category: misc
+connection_info: nc ingeneer-2k24.ingeniums.club 11008
+description: |
+  > pwntools crash course hh
+
+  [files](https://drive.google.com/drive/folders/1ycW85BP2I3Da9wdS7jnSX7xxlPX37r5S?usp=sharing)
+  
+  author: @godsword
+difficulty: medium
+flags:
+  - ingeneer{CoNGR@T$_nOW_yoU_R_R3Ady}
+name: warmup
+state: hidden
+tags:
+  - warmup
+type: standard
+value: 50
+version: "0.1"

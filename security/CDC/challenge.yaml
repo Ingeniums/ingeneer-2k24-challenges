@@ -1,0 +1,17 @@
+author: scalio
+category: security
+connection_info: nc ingeneer-2k24.ingeniums.club 13005
+description: |
+  > Guys i am in this CDC lab , this door is weird its saying that u need to be an admin to open it does anyone of u have an idea of what can that mean ???
+
+  author: @scalio
+difficulty: hard
+flags:
+  - ingeneer{fliP_TH3_6IT_AND_9eT_7HE_fL46_17S_no_tHA7_H4rD}
+name:  Centers for Disease Control and Prevention
+state: hidden
+tags:
+  - crypto
+type: static
+value: 500
+version: "0.1"

@@ -1,0 +1,21 @@
+author: ilyeshaddad_
+category: security
+name: Where did the requests go?
+connection_info: https://ingeneer-2k24.ingeniums.club:13009
+description: |
+  We were <b>looking for zombies</b> and found this server in the middle of nowhere, it seems like it's been here for a while. We need to find out what it's been doing.
+  Can you help us? they said the <b>note 5: Messages are Digested</b>.
+
+  author: @ilyeshaddad_
+difficulty: medium
+
+flags:
+  - ingeneer{it_w4s_a_l00000ong_journ3ey_w455ntt_1t}
+state: hidden
+tags:
+  - web
+type: standard
+value: 350
+weapon: 200
+medicine: 450
+version: "0.1"

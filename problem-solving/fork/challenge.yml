@@ -1,0 +1,14 @@
+author: Xm1Tch1X
+category: problem-solving
+connection_info: nc ingeneer-2k24.ingeniums.club 14008
+description: Submit the flag in the format ingeneer{...}.
+difficulty: medium
+flags:
+  - ingeneer{y0u_4r3_4mr4n3_f4v_stud3nt}
+name: Amrane's Fork Bomb
+state: hidden
+tags:
+  - problem-solving
+type: standard
+value: 500
+version: '0.1'

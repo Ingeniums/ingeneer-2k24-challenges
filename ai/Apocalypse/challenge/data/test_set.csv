@@ -1,0 +1,41 @@
+ID,sex,age,household,rurality,water (l),food,medication,tools,firstaid,sanitation,clothing,documents
+36,Female,28,1,Rural,0,Food,Medication,tools,No first aid supplies,Sanitation,Clothing,Documents
+148,Female,64,2,Suburban,0,Food,Medication,No tools,No first aid supplies,No sanitation,Clothing,
+90,Female,48,2,Suburban,0,Food,Medication,No tools,First aid supplies,No sanitation,Clothing,
+65,Female,37,4,Rural,40,Food,Medication,No tools,First aid supplies,Sanitation,Clothing,
+165,Male,40,3,Urban,0,No food,No medication,No tools,First aid supplies,No sanitation,Clothing,
+66,Male,37,3,Rural,40,Food,No medication,tools,First aid supplies,Sanitation,Clothing,
+22,Male,25,2,Suburban,8,No food,No medication,No tools,First aid supplies,No sanitation,,
+35,Female,28,1,Urban,0,Food,No medication,No tools,No first aid supplies,Sanitation,Clothing,Documents
+76,Male,42,4,Rural,8,Food,No medication,No tools,No first aid supplies,No sanitation,,
+198,Female,76,1,Urban,0,No food,No medication,tools,First aid supplies,Sanitation,Clothing,Documents
+18,Female,24,3,Rural,18,Food,Medication,tools,First aid supplies,Sanitation,Clothing,
+92,Female,50,2,Rural,8,No food,Medication,tools,No first aid supplies,Sanitation,Clothing,
+182,Female,67,1,Urban,0,Food,Medication,No tools,First aid supplies,Sanitation,Clothing,Documents
+145,Male,59,1,Rural,0,Food,Medication,tools,First aid supplies,No sanitation,Clothing,
+60,Male,36,3,Rural,8,Food,Medication,No tools,No first aid supplies,No sanitation,,
+67,Male,38,5,Rural,8,Food,No medication,tools,No first aid supplies,Sanitation,Clothing,
+88,Male,47,3,Suburban,16,Food,No medication,tools,No first aid supplies,No sanitation,,
+5,Male,19,1,Urban,0,Food,Medication,No tools,First aid supplies,Sanitation,,
+196,Male,68,1,Suburban,0,Food,No medication,No tools,No first aid supplies,Sanitation,Clothing,Documents
+50,Female,32,5,Rural,40,Food,Medication,tools,First aid supplies,Sanitation,Clothing,
+111,Female,65,2,Rural,16,Food,No medication,tools,No first aid supplies,No sanitation,,
+37,Male,29,5,Rural,40,No food,Medication,No tools,First aid supplies,Sanitation,Clothing,Documents
+166,Male,40,3,Urban,0,No food,No medication,No tools,First aid supplies,No sanitation,Clothing,
+127,Male,32,4,Suburban,0,No food,No medication,No tools,No first aid supplies,Sanitation,,Documents
+175,Female,54,2,Urban,0,No food,No medication,No tools,No first aid supplies,No sanitation,,
+174,Male,51,2,Urban,0,No food,No medication,tools,First aid supplies,No sanitation,,
+152,Male,71,2,Rural,0,Food,No medication,tools,No first aid supplies,No sanitation,,
+51,Female,32,4,Rural,8,No food,No medication,No tools,No first aid supplies,No sanitation,,
+172,Male,47,4,Urban,8,No food,No medication,tools,No first aid supplies,No sanitation,Clothing,
+52,Male,33,4,Rural,0,No food,No medication,tools,No first aid supplies,No sanitation,,
+105,Female,59,2,Rural,16,No food,No medication,No tools,First aid supplies,Sanitation,,Documents
+59,Female,36,4,Suburban,8,No food,No medication,No tools,No first aid supplies,No sanitation,Clothing,
+31,Male,27,2,Rural,8,Food,Medication,No tools,No first aid supplies,Sanitation,Clothing,
+142,Female,54,2,Urban,0,No food,No medication,tools,First aid supplies,Sanitation,Clothing,Documents
+155,Female,78,2,Suburban,8,No food,No medication,No tools,No first aid supplies,No sanitation,,
+138,Male,50,3,Rural,9,No food,No medication,tools,First aid supplies,Sanitation,Clothing,Documents
+17,Male,24,4,Rural,40,Food,Medication,No tools,First aid supplies,Sanitation,Clothing,
+69,Male,39,3,Urban,0,Food,Medication,No tools,First aid supplies,Sanitation,,Documents
+120,Male,81,1,Rural,8,Food,Medication,tools,No first aid supplies,No sanitation,,
+194,Male,65,1,Urban,0,No food,No medication,tools,First aid supplies,No sanitation,,

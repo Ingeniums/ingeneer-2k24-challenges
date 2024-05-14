@@ -1,0 +1,19 @@
+author: poysa
+category: linux
+connection_info: nc ingeneer-2k24.ingeniums.club 10004
+description: |
+  > shit, i think we are locked in here..., is there any open door ?
+  
+  author: @poysa
+difficulty: medium
+flags:
+  - ingeneer{7Ry_5CanNIN9_YOUr_oWn_CoMpU7er_MaY8E_Y0u_f!ND_a_door}
+name: local
+state: hidden
+tags:
+  - linux
+type: standard
+value: 500
+version: "0.1"
+
+

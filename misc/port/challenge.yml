@@ -1,0 +1,20 @@
+author: poysa
+category: misc
+connection_info: nc ingeneer-2k24.ingeniums.club 11004
+description: |
+  > some people may think zombies are the real danger, but humans are the SOURCE of all evil
+  
+  author: @poysa
+difficulty: easy
+flags:
+  - ingeneer{net.iPV4.ip_LOc@L_poRT_R4NG3}
+name: port
+state: hidden
+tags:
+  - network
+  - tcp
+type: standard
+value: 500
+version: "0.1"
+
+

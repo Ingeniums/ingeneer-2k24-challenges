@@ -1,0 +1,18 @@
+author: poysa
+category: linux
+connection_info: nc ingeneer-2k24.ingeniums.club 10003
+description: |
+  > these zombies look weird, are they humans wearing a Unified MASK ?
+  
+  author: @poysa
+difficulty: medium
+flags:
+  - ingeneer{it_is_weird_isnt_it?!}
+name: joker
+state: hidden
+tags:
+  - linux
+type: standard
+value: 500
+version: "0.1"
+

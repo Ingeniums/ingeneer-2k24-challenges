@@ -1,0 +1,6 @@
+Get MAC address from file system
+cat /sys/class/net/eth0/address
+
+get ip address from file system
+
+cat /etc/hosts

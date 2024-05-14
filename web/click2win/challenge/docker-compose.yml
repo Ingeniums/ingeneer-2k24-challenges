@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  click2win:
+    build: .
+    ports:
+      - "12001:3000"
+    environment:
+      - FLAG=ingeneer{dEVToO15_aRE_PworFULl}
+  

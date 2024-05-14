@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <style>
+    body {
+      height: 100vh;
+      background-color: aqua;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      color: #222;
+      margin: 0;
+      padding: 20px 50px;
+    }
+
+    h1 {
+      color: palevioletred;
+      display: flex;
+      justify-content: center;
+    }
+
+    form {
+      justify-content: center;
+      width: fit-content;
+      margin: 20px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    #idk {
+      display: flex;
+      justify-content: center;
+    }
+
+
+    input {
+      padding: 6px;
+      font-size: 18px;
+      width: fit-content;
+    }
+
+    button {
+      margin: auto;
+      padding: 8px;
+      font-size: 16px;
+      background-color: palevioletred;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      width: 200px;
+    }
+
+    label {
+      font-size: large;
+    }
+
+    #message {
+      display: flex;
+      justify-content: center;
+      color: palevioletred;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1>Register a new account</h1>
+
+
+    <form action="register" method="POST">
+      <input type="text" name="username" placeholder="username">
+      <input type="text" name="password" placeholder="password">
+      <button type="submit">Register</button>
+    </form>
+    <div id="idk">
+      <a href="login" id="button">login</a>
+    </div>
+
+    <% if (message) { %>
+      <div id="message">
+        <%=message%>
+      </div>
+      <% } %>
+
+  </div>
+</body>
+
+</html>

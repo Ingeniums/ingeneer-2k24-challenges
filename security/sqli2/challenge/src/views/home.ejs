@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px 20px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Choose Content</h1>
+    <form action="/content" method="post">
+        <label for="type">Select content type:</label>
+        <select name="table" id="type">
+            <option value="quotes">Quotes</option> 
+            <option value="jokes">Jokes</option>
+        </select>
+        <input type="hidden" name="column" id="column" value="">
+        <button type="submit" onclick="setColumn()">Fetch Content</button>
+    </form>
+
+    <script>
+       
+        function setColumn() {
+            var selectBox = document.getElementById("type");
+            var selectedType = selectBox.options[selectBox.selectedIndex].value;
+
+            <!-- it can be id -->
+            var column = selectedType === 'quotes' ? 'quote' : 'joke';
+            document.getElementById("column").value = column;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+author: godsword
+category: security
+connection_info: nc ingeneer-2k24.ingeniums.club 13004
+description: |
+  > one more to go
+
+  [files](https://drive.google.com/drive/folders/1LMYHzwSXxE25Mjttfvyxb282AZY9lexb?usp=sharing)
+
+  author: @godsword
+difficulty: medium
+flags:
+  - ingeneer{wh3n_!n_d0uBt_p4tcH_1t_Out}
+name: patchi_patchi2
+state: hidden
+tags:
+  - reverse
+type: standard
+value: 500
+version: "0.1"

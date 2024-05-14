@@ -1,0 +1,15 @@
+author: poysa
+category: misc
+connection_info:  ingeneer-2k24.ingeniums.club:5353
+description: |
+  > send him a TEXT to tell him that the guns are under the tree, plz mention that he has to dig deeeeep!!
+
+  author: @poysa
+difficulty: easy
+flags:
+  - ingeneer{wel1_D0ne_N0W_YoU_uNdeRsT4nd_W7f_I5_DN5}
+name: TEXT me
+state: hidden
+type: standard
+value: 500
+version: "0.1"

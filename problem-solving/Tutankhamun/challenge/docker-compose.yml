@@ -1,0 +1,7 @@
+version: '3.2'
+
+services:
+  tutankhamun: 
+    build: .
+    ports:
+      - "14004:12345"

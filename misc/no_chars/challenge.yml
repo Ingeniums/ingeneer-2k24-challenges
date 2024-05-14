@@ -1,0 +1,19 @@
+author: godsword
+category: misc
+connection_info: nc ingeneer-2k24.ingeniums.club 11003
+description: |
+  > ...
+
+  [files](https://drive.google.com/drive/folders/19QIWuu5bvzaM1nviGk8fk9vrHU1O4HBu?usp=sharing)
+  
+  author: @godsword
+difficulty: medium
+flags:
+  - ingeneer{StR!ng_FoRm@T!N6_1$_oP_66}
+name: no_chars?
+state: hidden
+tags:
+  - jail
+type: standard
+value: 500
+version: "0.1"

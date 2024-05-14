@@ -1,0 +1,16 @@
+author: NiL0V3R
+category: security
+description: |
+  > I KNEW IT!! hee took over my account! im sure that the intruder is a hater, or else, why would someone care about some physics research about resistances! ugh now my boss wont be able to reach to my real reports..
+
+  author: @NiL0V3R
+difficulty: medium
+flags:
+  - ingeneer{I_C0u1dnT_R3s1s7}
+name: Laboratory 2
+state: hidden
+tags:
+  - forensics
+type: standard
+value: 500
+version: "0.1"

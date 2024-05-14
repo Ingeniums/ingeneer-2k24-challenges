@@ -1,0 +1,19 @@
+author: godsword
+category: security
+connection_info: nc -v ingeneer.ingeniums.club 1335
+description: |
+  > your typical crackme challenge
+
+  [files](https://drive.google.com/drive/folders/1HVQxKLF3zIkdXoGTum6XJ_xQCxgU7qrA?usp=sharing)
+  
+  author: @godsword
+difficulty: medium
+flags:
+  - ingeneer{GhOrsgInPJFpJ78gOw8erLmbXWPAoj}
+name: crackme
+state: hidden
+tags:
+  - reverse
+type: standard
+value: 500
+version: "0.1"

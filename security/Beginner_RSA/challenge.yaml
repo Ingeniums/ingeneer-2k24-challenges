@@ -1,0 +1,18 @@
+author: scalio
+category: security
+description: |
+  > It's getting dark around here , we should find some candles  
+
+  [files](https://drive.google.com/drive/folders/1Tw4_dVsIdg9BFePZZSjt4JM04BL2svew?usp=sharing)
+
+  author: @scalio
+difficulty: easy
+flags:
+  - ingeneer{50rrY!_My6ad_17H0u9h7_rS4_is_8l0ck_C1PhER}
+name: Beginner Rsa
+state: hidden
+tags:
+  - crypto
+type: standard
+value: 500
+version: "0.1"

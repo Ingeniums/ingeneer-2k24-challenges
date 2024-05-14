@@ -1,0 +1,19 @@
+author: poysa
+category: security
+connection_info: nc ingeneer-2k24.ingeniums.club 13010
+description: |
+  > cyber coffee
+  
+  author: @poysa
+difficulty: hard
+flags:
+  - ingeneer{$oM3T1M35_7hE_cOsT_OF_fReE_C0nnECtIV1ty_1S_y0Ur_PRiv4cy}
+name: cyber coffee
+state: hidden
+tags:
+  - UDP
+  - LAN
+  - NETWORK
+type: standard
+value: 500
+version: "0.1"

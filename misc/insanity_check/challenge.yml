@@ -1,0 +1,15 @@
+category: misc
+connection_info: https://ingeneer-2k24.ingeniums.club
+description: |
+  > The truth isn't always in front of you
+  > Don't forget the flag format ingeneer{someting_here}
+difficulty: easy
+flags:
+  - ingeneer{Amineza3immarketing}
+name: insanity check
+state: hidden
+type: standard
+value: 500
+version: "0.1"
+
+

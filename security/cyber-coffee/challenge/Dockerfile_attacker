@@ -1,0 +1,21 @@
+FROM python:3.11
+
+RUN apt-get update && apt-get install -y socat libcap2-bin nano cron
+
+RUN useradd -s /bin/bash ctf
+
+RUN setcap cap_net_raw+ep $(readlink -f $(which python3))
+
+RUN pip install scapy
+
+COPY attacker /root/
+
+RUN mv /root/ping_static /bin/ping
+
+RUN chmod +x /bin/ping
+
+RUN setcap cap_net_raw+ep /bin/ping
+
+RUN chmod +x /root/entrypoint.sh
+
+CMD ["/root/entrypoint.sh"]

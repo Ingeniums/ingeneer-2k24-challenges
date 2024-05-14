@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  click2win2:
+    build: .
+    ports:
+      - "12002:3000"
+    environment:
+      - FLAG=ingeneer{yoU_sHoulD_wRI7E_yOuR_lo6Ic_and_CH3cKS_In_5ervEr_S!dE}
+      - API_KEY=2a0754b8-76fe-48f7-b8a5-5ad7089836e5

@@ -1,0 +1,19 @@
+author: godsword
+category: security
+connection_info: nc ingeneer-2k24.ingeniums.club 13003
+description: |
+  > the name is self-explanatory
+
+  [files](https://drive.google.com/drive/folders/1pf9rDTH7W5luzvE0JMpw_sKe_qIr2wo6?usp=sharing)
+  
+  author: @godsword
+difficulty: medium
+flags:
+  - ingeneer{g0Od_j0b_p4tcH3r_0n3_M0r3_t0_g0}
+name: patchi_patchi1
+state: hidden
+tags:
+  - reverse
+type: standard
+value: 500
+version: "0.1"

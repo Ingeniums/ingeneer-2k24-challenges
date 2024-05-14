@@ -1,0 +1,19 @@
+author: godsword
+category: security
+connection_info: nc -v ingeneer.ingeniums.club 1335
+description: |
+  > gotta be fast ...
+
+  files:
+    (TODO) ./src/source.c
+  author: @godsword
+difficulty: medium
+flags:
+  - ingeneer{r4c3_c0nDit1on_g0e5_brrrrrr_lOl}
+name: need_for_speed
+state: hidden
+tags:
+  - linux
+type: standard
+value: 500
+version: "0.1"

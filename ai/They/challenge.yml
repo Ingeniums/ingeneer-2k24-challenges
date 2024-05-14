@@ -1,0 +1,14 @@
+author: Adel
+category: ai
+connection_info: https://drive.google.com/file/d/1p4EDOW5rEnBascB6mWsjQzwxZbJSYaEg/view?usp=sharing
+description: Somewhere, in their higher dimension, they... are trying to communicate with us! -- Who the hell are they? -- We have no idea but they provided us with a lot of data. -- What kind of data? -- We don't know, you need to figure it out!
+difficulty: medium
+flags:
+  - ingeneer{20c1_16c2_12c3_18c4}
+name: They???
+state: hidden
+tags:
+  - ai
+type: standard
+value: 100
+version: "0.1"

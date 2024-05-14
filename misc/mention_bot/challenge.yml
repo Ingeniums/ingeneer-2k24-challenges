@@ -1,0 +1,17 @@
+author: godsword
+category: misc
+description: |
+  > this mention bot shall help you on your despreate journey
+
+  (TODO) teleram bot link
+  author: @godsword
+difficulty: medium
+flags:
+  - ingeneer{sQL1te_d8_EnuM3r44t1on_1s_3asY!}
+name: mention_bot
+state: hidden
+tags:
+  - misc
+type: standard
+value: 500
+version: "0.1"

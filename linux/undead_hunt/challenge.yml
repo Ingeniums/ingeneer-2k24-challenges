@@ -1,0 +1,20 @@
+author: godsword
+category: security
+connection_info: nc -v ingeneer.ingeniums.club 1335
+description: |
+  > dynamic analysis
+  > use the initial directory for your exploit, to avoid sharing the solution with other players
+
+  files:
+    (TODO) ./src/source.c
+  author: @godsword
+difficulty: medium
+flags:
+  - ingeneer{W3lL_D0n3_y0u_FounD_m3!!}
+name: dynamic
+state: hidden
+tags:
+  - linux
+type: standard
+value: 500
+version: "0.1"

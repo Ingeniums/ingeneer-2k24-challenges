@@ -1,0 +1,20 @@
+author: godsword
+category: security
+description: |
+  > ...
+
+  don't forget the flag format
+
+  [files](https://drive.google.com/drive/folders/12Z4gHce5zXbLlcobxN7Fonb2hTczl0P1?usp=sharing)
+
+  author: @godsword
+difficulty: medium
+flags:
+  - ingeneer{C0ngr4t5_x86_cH4mp10n_VEosA5MnKS}
+name: low_level_engineer
+state: hidden
+tags:
+  - reverse
+type: standard
+value: 500
+version: "0.1"

@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  get_it:
+    build: .
+    ports:
+      - '12006:3001'
+      - '12007:3002'
+    environment:
+      - URL=http://can_you_guess_it.ingeniums.club:12006
+      - URL2=http://can_you_guess_it.ingeniums.club:12007

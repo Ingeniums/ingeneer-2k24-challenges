@@ -1,0 +1,6 @@
+version: '3'
+services:
+  prive-esc:
+    build: .
+    ports:
+      - "13005:1337"

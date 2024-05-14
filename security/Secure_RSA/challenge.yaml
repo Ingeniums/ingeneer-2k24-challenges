@@ -1,0 +1,26 @@
+author: scalio
+category: security
+description: |
+  >  In ingenner we survive but pulling together not apart 
+
+
+  [files](https://drive.google.com/drive/folders/1OwLPYTJN3TSUGrhunQy_17E9tHq2itjj?usp=sharing)
+  author: @scalio
+difficulty: medium
+extra:
+  decay: 51
+  initial: 500
+  minimum: 50
+files:
+  - ./challenge/challenge.py
+    ./challenge/out.txt
+flags:
+  - ingeneer{feRma7_waS_A_6eNUi5}
+image: .
+name:  Secure RSA
+state: hidden
+tags:
+  - crypto
+type: static
+value: 500
+version: "0.1"

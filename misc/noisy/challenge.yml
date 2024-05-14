@@ -1,0 +1,18 @@
+author: younes
+category: misc
+description: |
+  > your flag is in the file "__file.txt__", but you cannot retrieve it because of all the noise. The characters that are considered "noisy" are specified in the "__filter.txt__".
+
+  [files](https://drive.google.com/drive/folders/1ItDgdz5mCF8wQbwB3z6slcnaFdbQXjOA?usp=sharing)
+  
+  author: @younes
+difficulty: medium
+flags:
+  - ingeneer{HU92Pqfq5UMnsbwjdS2xOppUO}
+name: noisy
+state: hidden
+tags:
+  - linux
+type: standard
+value: 500
+version: "0.1"

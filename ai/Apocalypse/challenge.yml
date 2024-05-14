@@ -1,0 +1,14 @@
+author: Adel
+category: ai
+connection_info: https://drive.google.com/file/d/1ctBNwFJjEAJbhd1Ihv9G6BYG1YnIrZdh/view?usp=sharing
+description: Analyze the provided data and leverage machine learning techniques to determine which residences are most likely to harbor human survivors!
+difficulty: easy
+flags:
+  - ingeneer{M4ch1n3_L34rn1ng_1s_34sy!}
+name: Apocalypse
+state: hidden
+tags:
+  - ai
+type: standard
+value: 100
+version: "0.1"

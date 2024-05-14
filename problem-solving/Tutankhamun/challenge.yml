@@ -1,0 +1,15 @@
+author: poysa
+category: problem-solving
+connection_info: nc ingeneer-2k24.ingeniums.club 14004
+description: |
+  > [description](https://docs.google.com/document/d/1UbLphIC73kdUFtLjpy8H8gKDMkcSZSaSI9eCMyXj8qE/edit?usp=sharing)
+
+  author: @poysa
+difficulty: medium
+flags:
+  - ingeneer{to_hIm_$h@1L_cOM3_f!RE_wat3r_aND_P35tiL3nC3}
+name: Tutankhamun
+state: hidden
+type: standard
+value: 500
+version: '0.1'

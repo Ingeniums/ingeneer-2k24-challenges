@@ -1,0 +1,17 @@
+author: poysa
+category: web
+connection_info: https://ingeneer-2k24.ingeniums.club:12002
+description: |
+  > what the hell? i shot this zombie like 9007199254740991 times and he is not dying
+
+  author: @poysa
+difficulty: medium
+flags:
+  - ingeneer{yoU_sHoulD_wRI7E_yOuR_lo6Ic_and_CH3cKS_In_5ervEr_S!dE}
+name: click2win2
+state: hidden
+tags:
+  - web 
+type: standard
+value: 100
+version: "0.1"
